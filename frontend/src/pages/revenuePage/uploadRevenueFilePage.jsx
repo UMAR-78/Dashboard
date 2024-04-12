@@ -159,7 +159,7 @@ const uploadRevenueFilePage = () => {
             className="button-upload-to-database cost-page-upload-button"
             onClick={uploadToDatabase}
           >
-            Upload to Database
+            Upload it to Database
           </button>
         </div>
       )}
