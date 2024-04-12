@@ -4,7 +4,7 @@ const connectDB = async () => {
   
   mongoose.set("strictQuery", true);
 
-  mongoose.connect("mongodb://127.0.0.1:27017/Dashboard", {
+  mongoose.connect("mongodb+srv://umarjamiljamil31:HXxzA3s9jOAMOUsM@umarcluster.3ez2vjw.mongodb.net/", {
     useNewUrlParser: true,
     // useUnifiedTopology: true,
   });
