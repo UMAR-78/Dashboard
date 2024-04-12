@@ -1,0 +1,14 @@
+.navbar {
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navbar .logo {
+    display: inline;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    gap: 10px;
+}

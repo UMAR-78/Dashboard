@@ -1,0 +1,71 @@
+/* .input-file{
+    margin-left: 48rem;
+    margin-bottom: 2rem;
+
+}
+/* .costTable-that-showing-dataFromExcel{
+    border: 1px solid var(--soft-background);
+    border-radius: 10px;
+    padding: 20px;
+} */
+
+/* .costTable-that-showing-dataFromExcel{ */
+    /* max-height: 300px; Set the maximum height of the container */
+    /* overflow-y: auto; Enable vertical scrollbar */
+    /* scrollbar-width: thin; Thin scrollbar (supported in Firefox) */
+  /* } */
+  
+  /* For Chrome, Edge, and Safari
+  .costTable-that-showing-dataFromExcel::-webkit-scrollbar {
+    width: 8px; /*Width of the scrollbar*/
+  /* } */ 
+  
+  /* .costTable-that-showing-dataFromExcel::-webkit-scrollbar-thumb {
+    background-color: var(--soft-color); /* Color of the scrollbar thumb */
+  /* } */
+  
+  /* .costTable-that-showing-dataFromExcel::-webkit-scrollbar-track {
+    background: #2a3447; /* Color of the scrollbar track */
+  /* } */ 
+
+
+
+
+  /* styles.css */
+/* styles.css */
+    
+.file-uploader .table-container {
+  margin-left: 1rem;
+  height: 400px;
+  width: 1020px;
+  overflow-y: auto;
+
+}
+
+.file-uploader table {
+  margin-top: 2rem;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.file-uploader th,
+.file-uploader td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.file-uploader th {
+  background-color: var(--soft-color); 
+  color: var(--soft-background);
+}
+
+.file-uploader > .inputFile{
+     position: absolute;
+     right: 0;
+}
+.cost-page-upload-button{
+  margin-left: 52rem;
+  margin-top: 2rem;
+  padding: 20px;
+}
