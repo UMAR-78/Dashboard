@@ -87,7 +87,7 @@ const uploadRevenueFilePage = () => {
       // Send each file's data to the backend
       await Promise.all(filteredFileData.map(async (file) => {
         const response = await fetch(
-          "https://dashboard-tau-fawn.vercel.app/upload-revenue-file",
+          `${window.location.origin}/upload-revenue-file`,
           {
             method: "POST",
             headers: {

@@ -18,7 +18,7 @@ const RevenueStats = () => {
     const fetchFiles = async () => {
       try {
         const response = await fetch(
-          "https://dashboard-tau-fawn.vercel.app/getRevenueFiles"
+          `${window.location.origin}/getRevenueFiles`
         );
         if (!response.ok) {
           toast.error("Failed to fetch files");
@@ -41,7 +41,7 @@ const RevenueStats = () => {
     setLoading(true);
     try {
       const response = await fetch(
-        `https://dashboard-tau-fawn.vercel.app/${selectedFile}`
+        `${window.location.origin}/${selectedFile}`
       );
 
       if (!response.ok) {
