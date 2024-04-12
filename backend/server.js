@@ -19,7 +19,7 @@ app.use(cors(
 
 
 
-app.use('/admin/api/v1' , revenueRoutes)
+app.use('/' , revenueRoutes)
 
 
 app.listen(5000, () => {
