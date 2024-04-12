@@ -11,7 +11,7 @@ connectDB();
 app.use(express.json());
 app.use(cors(
   {
-    origin : ["https://dashboard-tau-fawn.vercel.app/"],
+    origin : ["https://dashboard-frontends.vercel.app"],
     methods:["POST" , "GET"],
     credentials:true
   }
