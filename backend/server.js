@@ -19,12 +19,13 @@ app.use(cors(
 
 
 
-app.use('/' , revenueRoutes)
+app.use('/admin/api/v1' , revenueRoutes)
 
-app.get("/" , (req, res) =>{
-  app.use(express.static(path.resolve(__dirname,"frontend" , "dist")));
-  res.sendFile(path.resolve(__dirname,"frontend"  , "dist" , "index.html"));
-})
+
+// app.get("/" , (req, res) =>{
+//   app.use(express.static(path.resolve(__dirname,"frontend" , "dist")));
+//   res.sendFile(path.resolve(__dirname,"frontend"  , "dist" , "index.html"));
+// })
 
 
 app.listen(5000, () => {

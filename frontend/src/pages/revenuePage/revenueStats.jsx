@@ -18,7 +18,7 @@ const RevenueStats = () => {
     const fetchFiles = async () => {
       try {
         const response = await fetch(
-          `${window.location.origin}/getRevenueFiles`
+          "http://localhost:5000/admin/api/v1/getRevenueFiles"
         );
         if (!response.ok) {
           toast.error("Failed to fetch files");
@@ -41,7 +41,7 @@ const RevenueStats = () => {
     setLoading(true);
     try {
       const response = await fetch(
-        `${window.location.origin}/${selectedFile}`
+        `http://localhost:5000/admin/api/v1/getRevenueData/${selectedFile}`
       );
 
       if (!response.ok) {

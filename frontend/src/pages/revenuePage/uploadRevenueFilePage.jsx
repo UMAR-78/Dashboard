@@ -87,7 +87,7 @@ const uploadRevenueFilePage = () => {
       // Send each file's data to the backend
       await Promise.all(filteredFileData.map(async (file) => {
         const response = await fetch(
-          `${window.location.origin}/upload-revenue-file`,
+          "http://localhost:5000/admin/api/v1/upload-revenue-file",
           {
             method: "POST",
             headers: {
