@@ -11,6 +11,11 @@ app.use(cors());
 
 app.use('/admin/api/v1' , revenueRoutes)
 
+app.use(express.static(path.join(__dirname, '/frontend/dist')))
+// app.get('*' ,(req , res) =>{
+//   res.sendFile(path.join(__dirname, 'frontend', 'dist', 'index.html'))
+// })
+
 
 
 app.listen(5000, () => {
